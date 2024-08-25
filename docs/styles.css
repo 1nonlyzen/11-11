@@ -1,0 +1,69 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0;
+    color: #ff69b4;
+    text-align: center;
+}
+
+/* Page styling */
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Content styling */
+.content h1, .content p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #ff1493;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff69b4;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+}
+
+/* Page 2 additional styling */
+#page2 {
+    background-color: #ffe6e6;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    margin-bottom: 20px;
+}
